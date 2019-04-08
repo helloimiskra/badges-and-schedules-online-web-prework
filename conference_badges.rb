@@ -18,6 +18,7 @@ end
 
 def printer (array)
   badges_and_room_assignments = []
-  badges_and_room_assignments << puts batch_badge_creator(array) + assign_rooms(array)}
+  badges_and_room_assignments << (batch_badge_creator(array) + assign_rooms(array))}
 return badges_and_room_assignments
+end
 end
