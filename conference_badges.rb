@@ -18,7 +18,6 @@ end
 
 def printer (array)
   badges_and_room_assignments = []
-  array.each do |speakers, room_assignments|
-    badges_and_room_assignments << puts "#{speakers}, #{room_assignments}"}
-    return badges_and_room_assignments
-  end
+  badges_and_room_assignments << puts batch_badge_creator(array) + assign_rooms(array)}
+return badges_and_room_assignments
+end
